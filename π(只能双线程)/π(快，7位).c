@@ -12,5 +12,7 @@ int main()
 	}
 	long double pi = pow(aa * 8, 0.5);
 	printf("%.100f", pi);
+
+	getchar();
 	return 0;
 }

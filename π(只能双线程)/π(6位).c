@@ -37,5 +37,7 @@ int main()
 	long double xishu = 2.0 * pow(2.0, 0.5) / 9801.0;
 	long double pi = 1.0 / (sigma * xishu);
 	printf("%.100f", pi);
+
+	getchar();
 	return 0;
 }

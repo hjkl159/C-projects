@@ -21,5 +21,7 @@ int main()
 	// S0 = ¦Ð
 	long double S0 = 4 * aa * width;
 	printf("%.100f\n", S0);
-		return 0;
+
+	getchar();
+	return 0;
 }
