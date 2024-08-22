@@ -5,7 +5,8 @@ int main()
 {
 	long double ac = 1.0;
 	int n;
-	printf("脢盲脠毛戮芦露脠n(10)\n");
+	printf("输入精度n\n");
+	printf("8需要4秒，9需要8的10倍\n");
 	scanf_s("%d", &n);
 	for (long long i = 1; i <= pow(10, n); i++)
 	{
@@ -28,3 +29,4 @@ int main()
 	getchar();
 	return 0;
 }
+
