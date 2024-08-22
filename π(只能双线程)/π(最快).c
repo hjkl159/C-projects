@@ -25,5 +25,6 @@ int main()
 	printf("%.100f", pi);
 
 	getchar();
+	getchar();
 	return 0;
 }
